@@ -13,7 +13,7 @@ public class AroundAspect {
 
     //good for benchmarking
     //around allows to intercept and then allow method to continue working
-    @Around("com.spring.workshop.aop.aspect.CommonJoinPointConfig.dataLayerExecution()")
+    @Around("com.spring.workshop.aop.aspect.config.CommonJoinPointConfig.trackTimeAnnotation()")
     public Object before(ProceedingJoinPoint joinPoint) throws Throwable {
         //start time
         //allow method execution

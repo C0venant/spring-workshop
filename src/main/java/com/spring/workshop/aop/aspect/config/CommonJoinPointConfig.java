@@ -1,4 +1,4 @@
-package com.spring.workshop.aop.aspect;
+package com.spring.workshop.aop.aspect.config;
 
 import org.aspectj.lang.annotation.Pointcut;
 
@@ -14,4 +14,9 @@ public class CommonJoinPointConfig {
     //takes bean name as regular expression
     @Pointcut("bean(*dao*)")
     public void beanExecution(){}
+
+    //configure custom annotation to apply specific aspect (tracks time in this case)
+    @Pointcut("@annotation(com.spring.workshop.aop.aspect.annotation.TrackTime)")
+    public void trackTimeAnnotation(){}
 }
+

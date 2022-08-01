@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class BeforeAspect {
 
     //intercept everything in this package
-    @Before("com.spring.workshop.aop.aspect.CommonJoinPointConfig.dataLayerExecution()")
+    @Before("com.spring.workshop.aop.aspect.config.CommonJoinPointConfig.dataLayerExecution()")
     public void before(JoinPoint joinPoint) {
         //can be used to check something before execution
         log.info("Intercepted method calls - {}", joinPoint);

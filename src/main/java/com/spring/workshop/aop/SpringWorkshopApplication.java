@@ -12,7 +12,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringWorkshopApplication implements CommandLineRunner {
 
-
     @Autowired
     DataProcessor1 dataProcessor1;
 

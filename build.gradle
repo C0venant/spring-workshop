@@ -25,6 +25,9 @@ dependencies {
     implementation 'org.springframework.data:spring-data-rest-hal-explorer:3.7.0'
 
     implementation group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '2.7.2'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    runtimeOnly 'com.h2database:h2'
 
     compileOnly 'org.springframework.boot:spring-boot-devtools'
     compileOnly 'org.projectlombok:lombok'

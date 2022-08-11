@@ -1,6 +1,6 @@
-package com.spring.workshop.database.dao;
+package com.spring.workshop.databaseSpringJdbc.dao;
 
-import com.spring.workshop.database.entity.Person;
+import com.spring.workshop.databaseSpringJdbc.entity.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

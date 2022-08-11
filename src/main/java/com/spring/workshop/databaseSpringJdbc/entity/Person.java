@@ -1,4 +1,4 @@
-package com.spring.workshop.database.entity;
+package com.spring.workshop.databaseSpringJdbc.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

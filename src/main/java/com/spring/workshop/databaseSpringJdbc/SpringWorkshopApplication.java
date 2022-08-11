@@ -1,7 +1,7 @@
-package com.spring.workshop.database;
+package com.spring.workshop.databaseSpringJdbc;
 
-import com.spring.workshop.database.dao.PersonDao;
-import com.spring.workshop.database.entity.Person;
+import com.spring.workshop.databaseSpringJdbc.dao.PersonDao;
+import com.spring.workshop.databaseSpringJdbc.entity.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

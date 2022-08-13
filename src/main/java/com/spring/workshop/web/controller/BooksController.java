@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-@RestController
+@RestController// combination of @Controller and @ResponseBody annotation
 public class BooksController {
 
     @GetMapping("/books")

@@ -12,6 +12,10 @@ import java.util.List;
 
 @Repository
 @Transactional//transaction management
+/*
+all this was simplified by spring data to avoid
+duplication (check SimplifiedPersonJpaRepository)
+ */
 public class PersonJpaRepository {
 
     @PersistenceContext // all operations should go through here

@@ -6,8 +6,10 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 import java.util.Date;
 
+@NamedQuery(name = "find_all", query = "select p from PersonEntity p")
 @Entity // person_entity table will be created
 @NoArgsConstructor // this is mandatory
 @Data
